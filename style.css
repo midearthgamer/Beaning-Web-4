@@ -1,0 +1,73 @@
+*{
+    background-color:rgb(36,37,38);
+}
+h1{
+    color:rgb(231,232,233);
+    background-color:rgb(41,42,93);
+}
+
+p{
+    color:rgb(231,232,233)
+}
+h2{
+    color:rgb(231,232,233)
+}
+
+.header{
+    background-color:rgb(36,37,38)
+}
+
+.games{
+    display:flex;
+    flex-wrap: flex-start;
+    justify-content: flex-start;
+}
+.games-again{
+    margin:12px;
+    text-align:center;
+    border-radius: 25px;
+}
+
+.link-Button{
+  font-size: 20px
+}
+
+.Discord{
+  position:fixed;
+  margin-left: -250px; /* very important for the image to be centered */
+  left:260px;
+  bottom:0px;
+  opacity: 0.2;
+}
+
+.Discord:hover{
+  opacity: 1;
+}
+
+.games-again p {
+  opacity: 0.2;
+}
+.games-again:hover p {
+  opacity:1;
+}
+
+.games-again a{
+  opacity: 0.2;
+}
+
+.games-again:hover a{
+  opacity: 1;
+}
+
+a:link{
+    color:rgb(231,232,233);
+}
+a:visited{
+    color:rgb(231,232,233);
+}
+
+.atom-live-server.json
+
+    {
+      "browser": "chrome"
+    }
